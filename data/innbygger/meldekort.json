@@ -1,0 +1,52 @@
+{
+  "ident": "11223344556",
+  "sendtInnDato": "2025-03-28",
+  "meldekortid": "123456789",
+  "sammenlagtArbeidIPerioden": 12,
+  "harGittRiktigeOpplysninger": true,
+  "harBrukerVedtakIKelvin": true,
+  "meldeperiode": {
+    "fraOgMedDato": "2025-03-13",
+    "tilOgMedDato": "2025-03-27",
+    "uker": "Uke 1, 2 og 3"
+  },
+  "innsendingsvindu": {
+    "fraOgMedDato": "2020-03-28",
+    "tilOgMedDato": "2020-04-05"
+  },
+  "meldekort": {
+    "harDuArbeidet": false,
+    "timerArbeidPerUkeIPerioden": [
+      {
+        "ukenummer": "5",
+        "fraOgMedDato": "2025-03-13",
+        "tilOgMedDato": "2025-03-20",
+        "dager": [
+          {
+            "dag": "2025-03-13",
+            "timerArbeid": 2
+          },
+          {
+            "dag": "2025-03-15",
+            "timerArbeid": 4
+          }
+        ]
+      },
+      {
+        "fraOgMedDato": "2025-03-20",
+        "tilOgMedDato": "2025-03-27",
+        "ukenummer": "6",
+        "dager": [
+          {
+            "dag": "2025-03-20",
+            "timerArbeid": 2
+          },
+          {
+            "dag": "2025-03-24",
+            "timerArbeid": 4
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "søker": {
+    "navn": {
+      "fornavn": "Tor",
+      "etternavn": "Idland"
+    }
+  },
+  "kvittering": {
+    "mottattdato": "2022-10-31T15:34:48.557689Z",
+    "temaer": [
+      {
+        "type": "TEMA",
+        "overskrift": "Startdato",
+        "underblokker": [
+          {
+            "type": "FELT",
+            "felt": "Har du sykepenger nå?",
+            "verdi": "Ja"
+          },
+          {
+            "type": "FELT",
+            "felt": "Har du planer om å ta ferie før du er ferdig med sykepenger?",
+            "verdi": "Ja"
+          },
+          {
+            "type": "FELT",
+            "felt": "Vet du når du skal ta ferie?",
+            "verdi": "Ja, jeg vet fra-dato og til-dato"
+          },
+          {
+            "type": "FELT",
+            "felt": "Periode",
+            "verdi": "Fra 17.05.2026 til 30.06.2026"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Bosted og jobb",
+        "underblokker": [
+          {
+            "type": "FELT",
+            "felt": "Har du bodd sammenhengende i Norge de fem siste årene?",
+            "verdi": "Nei"
+          },
+          {
+            "type": "FELT",
+            "felt": "Har du jobbet sammenhengende i Norge de fem siste årene?",
+            "verdi": "Nei"
+          },
+          {
+            "type": "GRUPPE",
+            "overskrift": "Oppgi i hvilke perioder du har bodd, studert eller jobbet utenfor Norge. Oppgi også hvilket land du var i.",
+            "tabellrader": [
+              {
+                "type": "FELTGRUPPE",
+                "felter": [
+                  {
+                    "type": "FELT",
+                    "felt": "Land",
+                    "verdi": "Antigua og Barbuda"
+                  },
+                  {
+                    "type": "FELT",
+                    "felt": "Periode",
+                    "verdi": "Fra januar 2026 til mars 2026"
+                  },
+                  {
+                    "type": "FELT",
+                    "felt": "Jobbet du i dette landet i denne perioden?",
+                    "verdi": "Nei"
+                  }
+                ]
+              },
+              {
+                "type": "FELTGRUPPE",
+                "felter": [
+                  {
+                    "type": "FELT",
+                    "felt": "Land",
+                    "verdi": "Colombia"
+                  },
+                  {
+                    "type": "FELT",
+                    "felt": "Periode",
+                    "verdi": "Fra januar 1990 til november 2004"
+                  },
+                  {
+                    "type": "FELT",
+                    "felt": "Jobbet du i dette landet i denne perioden?",
+                    "verdi": "Ja"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Yrkesskade",
+        "underblokker": [
+          {
+            "type": "FELT",
+            "felt": "Har du en yrkessykdom eller yrkesskade som påvirker hvor mye du kan jobbe?",
+            "verdi": "Ja"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Registrerte behandlere",
+        "underblokker": [
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "Sonja Paracet Plastersen"
+              },
+              {
+                "type": "FELT",
+                "felt": "Kontor",
+                "verdi": "Andeby legekontor"
+              },
+              {
+                "type": "FELT",
+                "felt": "Adresse",
+                "verdi": "Skogveien 17, 1234 Andeby"
+              },
+              {
+                "type": "FELT",
+                "felt": "Telefon",
+                "verdi": "99999999"
+              },
+              {
+                "type": "FELT",
+                "felt": "Er informasjonen om fastlegen din riktig?",
+                "verdi": "Ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Andre behandlere",
+        "underblokker": [
+          {
+            "type": "FRITEKST",
+            "tekst": "Ingen behandlere lagt til av søker"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Barn under 18 år fra folkeregisteret",
+        "underblokker": [
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "Jørgen Hatt Emaker"
+              },
+              {
+                "type": "FELT",
+                "felt": "Fødselsdato",
+                "verdi": "17.05.2022"
+              }
+            ]
+          },
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "Jonas Li Ibux"
+              },
+              {
+                "type": "FELT",
+                "felt": "Fødselsdato",
+                "verdi": "17.05.2024"
+              }
+            ]
+          },
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "Embla Bakke Li"
+              },
+              {
+                "type": "FELT",
+                "felt": "Fødselsdato",
+                "verdi": "17.05.2025"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Andre barn (lagt til av søker)",
+        "underblokker": [
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "barn barnesen"
+              },
+              {
+                "type": "FELT",
+                "felt": "Fødselsdato",
+                "verdi": "10.10.2020"
+              },
+              {
+                "type": "FELT",
+                "felt": "Hva er din relasjon til barnet?",
+                "verdi": "FORELDER"
+              }
+            ]
+          },
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FELT",
+                "felt": "Navn",
+                "verdi": "kid kidsen"
+              },
+              {
+                "type": "FELT",
+                "felt": "Fødselsdato",
+                "verdi": "20.10.2022"
+              },
+              {
+                "type": "FELT",
+                "felt": "Hva er din relasjon til barnet?",
+                "verdi": "FOSTERFORELDER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Student",
+        "underblokker": [
+          {
+            "type": "FELT",
+            "felt": "Er du student?",
+            "verdi": "Ja, men har avbrutt studiet helt på grunn av sykdom"
+          },
+          {
+            "type": "FELT",
+            "felt": "Har du planer om å komme tilbake til studiet?",
+            "verdi": "Vet ikke"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Andre ytelser",
+        "underblokker": [
+          {
+            "type": "FELT",
+            "felt": "Har du fått eller skal du få ekstra utbetalinger fra arbeidsgiver?",
+            "verdi": "Ja"
+          },
+          {
+            "type": "FELTGRUPPE",
+            "felter": [
+              {
+                "type": "FRITEKST",
+                "tekst": "Godtgjørelse eller lønn for verv"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Økonomisk sosialhjelp"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Omsorgsstønad (tidligere omsorgslønn)"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Introduksjonsstønad (introduksjonsprogrammet)"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Kvalifiseringsstønad (kvalifiseringsprogrammet)"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Ytelser fra utenlandske trygdemyndigheter"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Avtalefestet pensjon (AFP)"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Utbetaler: Posten",
+                "indent": true
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Lån fra Lånekassen"
+              },
+              {
+                "type": "FRITEKST",
+                "tekst": "Sykestipend fra Lånekassen"
+              }
+            ],
+            "overskrift": "Kryss av for utbetalinger du får, eller nylig har søkt om:"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Tilleggsopplysninger",
+        "underblokker": [
+          {
+            "type": "GRUPPE",
+            "overskrift": "Hvis du har flere opplysninger du mener er viktig for søknaden din, kan du skrive dem her (valgfritt)",
+            "tabellrader": [
+              {
+                "type": "FRITEKST",
+                "tekst": "sdfasdf sfad  sd sdf asdf asfdsf sdf asf sfasdf asf asf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Vedlegg",
+        "underblokker": [
+          {
+            "type": "GRUPPE",
+            "overskrift": "",
+            "tabellrader": [
+              {
+                "type": "LISTE",
+                "tittel": "",
+                "punkter": [
+                  "sample.pdf"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "GRUPPE",
+            "overskrift": "",
+            "tabellrader": [
+              {
+                "type": "LISTE",
+                "tittel": "",
+                "punkter": [
+                  "sample.pdf"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "GRUPPE",
+            "overskrift": "Annet",
+            "tabellrader": [
+              {
+                "type": "LISTE",
+                "tittel": "",
+                "punkter": [
+                  "sample.pdf"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Manglende vedlegg",
+        "underblokker": [
+          {
+            "type": "FRITEKST",
+            "tekst": "Ingen påkrevde vedlegg"
+          }
+        ]
+      },
+      {
+        "type": "TEMA",
+        "overskrift": "Bekreftelse",
+        "underblokker": [
+          {
+            "type": "FRITEKST",
+            "tekst": "Jeg har lest all informasjonen jeg har fått i søknaden og bekrefter at opplysningene jeg har gitt er korrekte."
+          }
+        ]
+      }
+    ]
+  }
+}

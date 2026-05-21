@@ -1,0 +1,16 @@
+[
+  {
+    "family": "Source Sans Pro",
+    "path": "SourceSansPro-Regular.ttf",
+    "weight": 400,
+    "style": "normal",
+    "subset": false
+  },
+  {
+    "family": "Source Sans Pro",
+    "path": "SourceSansPro-Bold.ttf",
+    "weight": 700,
+    "style": "normal",
+    "subset": false
+  }
+]
