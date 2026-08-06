@@ -1,4 +1,4 @@
-#let data = json("/data.json")
+#let data = json("/data/innsikt/vurderinger.json")
 
 #show terms.item: it => block(width: 100%)[
   #text(style: "italic")[#it.term]
