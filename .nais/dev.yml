@@ -34,6 +34,10 @@ spec:
     autoInstrumentation:
       enabled: true
       runtime: sdk
+  accessPolicy:
+    inbound:
+      rules:
+        - application: innsending
   resources:
     limits:
       memory: 256Mi
