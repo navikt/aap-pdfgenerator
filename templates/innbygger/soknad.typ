@@ -1,4 +1,4 @@
-#let data = json("/data.json")
+#let data = json("/data/innbygger/soknad.json")
 #let søker = data.søker
 #let kvittering = data.kvittering
 #let soknadsId = data.at("soknadsId", default: "")
