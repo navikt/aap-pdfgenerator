@@ -22,6 +22,8 @@
     ]
   ],
 )
+#set document(title: "Søknad om Arbeidsavklaringspenger (AAP)")
+#show heading.where(level: 1): set text(size: title-size, weight: 600)
 #show heading.where(level: 2): set text(size: section-size, weight: 600)
 
 #pad(left: 0.7cm, top: -0.8cm, bottom: 0.5cm)[

@@ -8,7 +8,7 @@
   // Title
   #if page-title != "" [
     #pad(left: 30mm, top: 3mm, bottom: 5mm)[
-      #text(size: title-size, weight: 600)[#page-title]
+      #heading(level: 1)[#page-title]
     ]
   ]
 ]
