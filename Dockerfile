@@ -1,6 +1,6 @@
 FROM ghcr.io/navikt/pdfgenrs:1.0.21
 
-ENV RUST_LOG=debug
+ENV RUST_LOG=trace
 
 COPY templates /app/templates
 COPY lib /app/lib
