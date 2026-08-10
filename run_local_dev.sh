@@ -1,7 +1,8 @@
 #!/bin/bash
 
 CURRENT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PDFGENRS_IMAGE="ghcr.io/navikt/pdfgenrs:1.0.21"
+PDFGENRS_VERSION=$(grep -m1 'ghcr.io/navikt/pdfgenrs' "$CURRENT_PATH/Dockerfile" | grep -o '[0-9][^"]*$')
+PDFGENRS_IMAGE="ghcr.io/navikt/pdfgenrs:${PDFGENRS_VERSION}"
 
 docker pull "$PDFGENRS_IMAGE"
 docker run \
