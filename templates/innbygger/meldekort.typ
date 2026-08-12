@@ -1,11 +1,14 @@
-#let data = json("/data.json")
+#let data = json("/data/innbygger/meldekort.json")
 
 #import "/lib/innbygger/utils.typ": iso-til-norsk-dato
 #import "/lib/innbygger/header.typ": nav-header
-#import "/lib/innbygger/style.typ": page-setup, body-size, small-size, medium-size, h1-size, h2-size
+#import "/lib/innbygger/style.typ": page-setup, body-size, small-size, medium-size, h1-size, h2-size, title-size, section-size
 
-//#show: page-setup(margin: (top: 1.5cm, bottom: 1cm, left: 36pt, right: 36pt))
 #show: page-setup()
+
+#set document(title: "Meldekort arbeidsavklaringspender (AAP)")
+#show heading.where(level: 1): set text(size: title-size, weight: 600)
+#show heading.where(level: 2): set text(size: section-size, weight: 600)
 
 // NAV logo
 #pad(top: 0.5cm)[
