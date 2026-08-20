@@ -86,7 +86,7 @@
     let indent = blokk.at("indent", default: false)
     block(
       inset: (left: if indent { 20pt } else { 0pt }),
-      below: compact-gap,
+      below: block-gap,
     )[#blokk.at("tekst", default: "")]
   }
 }
