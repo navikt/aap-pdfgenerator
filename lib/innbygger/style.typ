@@ -25,7 +25,7 @@
   footer: page-footer(),
 ) = body => {
   set page(paper: "a4", margin: margin, footer: footer)
-  set text(font: "Source Sans Pro", size: body-size)
+  set text(font: "Source Sans Pro", size: body-size, lang: "nb", region: "NO")
   set par(leading: 0.5em)
   show link: set text(fill: nav-blue)
   show link: underline

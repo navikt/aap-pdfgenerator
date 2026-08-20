@@ -22,7 +22,7 @@
     ]
   ],
 )
-#set document(title: "Søknad om Arbeidsavklaringspenger (AAP)")
+#set document(title: "Søknad om Arbeidsavklaringspenger (AAP)", author: "NAV IT")
 #show heading.where(level: 1): set text(size: title-size, weight: 600)
 #show heading.where(level: 2): set text(size: section-size, weight: 600)
 
