@@ -37,7 +37,7 @@ spec:
       runtime: sdk
   resources:
     limits:
-      memory: 256Mi
+      memory: 1024Mi
     requests:
       cpu: 10m
       memory: 100Mi

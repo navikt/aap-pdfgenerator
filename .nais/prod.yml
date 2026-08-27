@@ -37,10 +37,10 @@ spec:
       runtime: sdk
   resources:
     limits:
-      memory: 2048Mi
+      memory: 3Gi
     requests:
-      cpu: 200m
-      memory: 512Mi
+      cpu: 500m
+      memory: 1Gi
   accessPolicy:
     inbound:
       rules:
