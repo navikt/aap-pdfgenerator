@@ -15,7 +15,7 @@ docker run \
         -e DEV_MODE=true \
         -e REQUEST_BODY_LIMIT_BYTES=52428800 \
         -e MAX_IMAGE_DIMENSION_PIXELS=16384 \
-        -e MAX_IMAGE_PIXELS=100000000 \
+        -e MAX_IMAGE_PIXELS=64000000 \
         -e MAX_CONCURRENT_COMPILATIONS=2 \
         -e COMPILE_TIMEOUT_SECONDS=60 \
         -it \
