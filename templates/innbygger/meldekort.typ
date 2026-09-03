@@ -18,7 +18,10 @@
 // Person info
 #pad(top: 10mm, bottom: 24pt)[
   #set text(size: small-size)
-  Fødselsnummer: #{ let id = data.ident; id.slice(0, 6) + " " + id.slice(6) } \
+  #let id = data.at("ident", default: "")
+  #if id != "" [
+    Fødselsnummer: #if id.len() >= 6 [#id.slice(0, 6) #id.slice(6)] else [#id] \
+  ]
   Meldekort-ID: #data.meldekortid \
   Mottatt: #iso-til-norsk-dato(data.sendtInnDato)
 ]
