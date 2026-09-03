@@ -6,7 +6,11 @@
 
 #show: page-setup()
 
-#set document(title: "Meldekort arbeidsavklaringspenger (AAP)", author: "NAV IT")
+#set document(
+  title: "Elektronisk innsending av meldekort (AAP)",
+  description: "Innsendt meldekort for AAP",
+  author: "NAV IT",
+)
 #show heading.where(level: 1): set text(size: title-size, weight: 600)
 #show heading.where(level: 2): set text(size: section-size, weight: 600)
 
