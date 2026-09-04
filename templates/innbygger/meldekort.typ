@@ -13,7 +13,8 @@
 )
 #show heading.where(level: 1): set text(size: h1-size, weight: 500)
 #show heading.where(level: 2): set text(size: h2-size, weight: 500)
-#show heading: set block(above: 0pt, below: 4pt)
+#show heading.where(level: 1): set block(above: 0pt, below: 8pt)
+#show heading.where(level: 2): set block(above: 28pt, below: 8pt)
 
 // NAV logo
 #pad(top: 0.5cm)[
@@ -51,7 +52,6 @@
 #text(size: medium-size)[#link("https://www.nav.no/endringer")[Les mer om viktigheten av å gi riktige opplysninger]]
 
 // Fyll ut meldekort
-#v(16pt)
 #heading(level: 2)[Fyll ut meldekort]
 #text(size: medium-size)[Skriv inn timene du har arbeidet for perioden. Timer skrives med desimal til nærmeste halvtime. For eksempel blir 7 timer og 30 min = 7,5 timer.]
 
