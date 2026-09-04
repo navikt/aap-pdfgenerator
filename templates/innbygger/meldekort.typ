@@ -2,13 +2,19 @@
 
 #import "/lib/innbygger/utils.typ": iso-til-norsk-dato
 #import "/lib/innbygger/header.typ": nav-header
-#import "/lib/innbygger/style.typ": page-setup, body-size, small-size, medium-size, h1-size, h2-size, title-size, section-size
+#import "/lib/innbygger/style.typ": page-setup, body-size, small-size, medium-size, h1-size, h2-size
 
 #show: page-setup()
 
-#set document(title: "Meldekort arbeidsavklaringspenger (AAP)", author: "NAV IT")
-#show heading.where(level: 1): set text(size: title-size, weight: 600)
-#show heading.where(level: 2): set text(size: section-size, weight: 600)
+#set document(
+  title: "Elektronisk innsending av meldekort (AAP)",
+  description: "Innsendt meldekort for AAP",
+  author: "NAV IT",
+)
+#show heading.where(level: 1): set text(size: h1-size, weight: 500)
+#show heading.where(level: 2): set text(size: h2-size, weight: 500)
+#show heading.where(level: 1): set block(above: 0pt, below: 8pt)
+#show heading.where(level: 2): set block(above: 28pt, below: 8pt)
 
 // NAV logo
 #pad(top: 0.5cm)[
@@ -18,14 +24,16 @@
 // Person info
 #pad(top: 10mm, bottom: 24pt)[
   #set text(size: small-size)
-  Fødselsnummer: #{ let id = data.ident; id.slice(0, 6) + " " + id.slice(6) } \
+  #let id = data.at("ident", default: "")
+  #if id != "" [
+    Fødselsnummer: #if id.len() >= 6 [#id.slice(0, 6) #id.slice(6)] else [#id] \
+  ]
   Meldekort-ID: #data.meldekortid \
   Mottatt: #iso-til-norsk-dato(data.sendtInnDato)
 ]
 
 // Title
-#text(size: h1-size, weight: 500)[Meldekort for #data.meldeperiode.uker]
-#v(4pt, weak: true)
+#heading(level: 1)[Meldekort for #data.meldeperiode.uker]
 #text(size: medium-size)[#iso-til-norsk-dato(data.meldeperiode.fraOgMedDato) - #iso-til-norsk-dato(data.meldeperiode.tilOgMedDato)]
 
 // Innsendingsvindu info
@@ -44,9 +52,7 @@
 #text(size: medium-size)[#link("https://www.nav.no/endringer")[Les mer om viktigheten av å gi riktige opplysninger]]
 
 // Fyll ut meldekort
-#v(16pt)
-#text(size: h2-size, weight: 500)[Fyll ut meldekort]
-#v(4pt, weak: true)
+#heading(level: 2)[Fyll ut meldekort]
 #text(size: medium-size)[Skriv inn timene du har arbeidet for perioden. Timer skrives med desimal til nærmeste halvtime. For eksempel blir 7 timer og 30 min = 7,5 timer.]
 
 #v(16pt)
