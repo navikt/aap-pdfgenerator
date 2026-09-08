@@ -46,3 +46,4 @@ spec:
       rules:
         - application: innsending
         - application: behandlingsflyt
+        - application: meldekort-backend
