@@ -1,4 +1,4 @@
-FROM ghcr.io/navikt/pdfgenrs:1.0.47
+FROM ghcr.io/navikt/pdfgenrs:1.0.51
 
 ENV RUST_LOG=trace
 
