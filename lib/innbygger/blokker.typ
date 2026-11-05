@@ -8,7 +8,7 @@
   let strong-weight = 600
 
   if t == "TABELL" {
-    block(breakable: false, width: 100%, below: block-gap)[
+    block(breakable: true, width: 100%, below: block-gap)[
       #if blokk.at("overskrift", default: "") != "" [
         #text(weight: strong-weight)[#blokk.overskrift]
       ]
@@ -49,7 +49,7 @@
       ]
     ]
   } else if t == "FELT" {
-    block(breakable: false, below: block-gap)[
+    block(breakable: true, below: block-gap)[
       #text(weight: strong-weight)[#blokk.at("felt", default: "")]
       #if blokk.at("verdi", default: "") != "" [
         #v(inner-gap, weak: true)
@@ -57,7 +57,7 @@
       ]
     ]
   } else if t == "FELTGRUPPE" {
-    block(breakable: false, below: block-gap)[
+    block(breakable: true, below: block-gap)[
       #if blokk.at("overskrift", default: "") != "" [
         #text(weight: strong-weight)[#blokk.overskrift]
         #v(inner-gap, weak: true)
@@ -73,7 +73,7 @@
       ]
     ]
   } else if t == "GRUPPE" {
-    block(breakable: false, below: block-gap)[
+    block(breakable: true, below: block-gap)[
       #if blokk.at("overskrift", default: "") != "" [
         #text(weight: strong-weight)[#blokk.overskrift]
         #v(inner-gap, weak: true)
